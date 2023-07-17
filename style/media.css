@@ -1,0 +1,66 @@
+@media screen and (max-width: 910px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .nav-items {
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+    /* banner style here  */
+
+    .banner-container {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+
+    .banner-text {
+        width: 70%;        
+        padding-top: 40px;
+    }
+
+    .banner-img {
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .nav-items a {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+
+    /* banner style  */
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-text {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
