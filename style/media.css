@@ -40,6 +40,18 @@
         width: 100%;
         flex-wrap: wrap;
     }
+
+    .icon-container a img{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    /* icon section end here  */
+
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
@@ -84,5 +96,11 @@
         width: 70%;
         display: block;
         margin: auto;
+    }
+
+    /* icon conteinar end here  */
+
+    .card-container{
+        grid-template-columns: 1fr;
     }
 }
