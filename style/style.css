@@ -25,6 +25,7 @@ body {
     width: 50%;
     font-size: 22px;
     font-weight: 700;
+    text-align: center;
 }
 
 .nav-items {
@@ -60,7 +61,8 @@ body {
 
 .banner-text {
     width: 50%;
-}
+    display: block;
+    text-align: center;}
 
 .banner-text h1 {
     color: #3A3A3A;
@@ -96,4 +98,29 @@ body {
     min-height: 20%;
     display: block;
     margin: auto;
+}
+
+/* banner section ends here  */
+
+
+
+.sponsors-container{
+    max-width: 1200px;
+    min-height: 100px;
+    border:1px solid red;
+    margin: 50px auto;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container a{
+    padding: 25px;
+}
+
+.icon-container a img{
+    width: 100%;
 }
