@@ -24,7 +24,7 @@
 
 
     .banner-text {
-        width: 70%;        
+        width: 70%;
         padding-top: 40px;
     }
 
@@ -49,6 +49,7 @@
     .nav-items a {
         padding-bottom: 10px;
         font-size: 20px;
+        padding-right: 0px;
     }
 
 
